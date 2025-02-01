@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { CategoryInfoSectionProps } from "@/app/Interface/interface";
-import { motion } from "framer-motion";
 import ScaleButton from "./scale-button";
 const CatergoryItemInfoSection = ({
   name,

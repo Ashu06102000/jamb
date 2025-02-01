@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-start">
             <a
-              className="font-medium text-base text-customGray leading-6"
+              className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
               href="mailto:hello@jamb.co.uk"
               aria-label="Send an email to hello@jamb.co.uk"
             >
@@ -79,28 +79,28 @@ const Footer = () => {
               <ul role="list" aria-label="Reproduction Chimneypieces links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Marble Chimneypieces"
                   >
                     Marble
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Stone Chimneypieces"
                   >
                     Stone
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Grates and Accessories"
                   >
                     Grates & Accessories
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Guide to Jamb Marbles"
                   >
@@ -117,21 +117,21 @@ const Footer = () => {
               <ul role="list" aria-label="Antique Chimneypieces links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="French and Italian Chimneypieces"
                   >
                     French & Italian
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Georgian Chimneypieces"
                   >
                     Georgian
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Regency Chimneypieces"
                   >
@@ -155,42 +155,42 @@ const Footer = () => {
               <ul role="list" aria-label="Reproduction Lighting links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Hanging Globes"
                   >
                     Hanging Globes
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Hanging Lanterns"
                   >
                     Hanging Lanterns
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Wall Lights"
                   >
                     Wall Lights
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Dish Lights"
                   >
                     Dish Lights
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Table Lamps"
                   >
                     Table Lamps
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Chains and Brackets"
                   >
@@ -209,28 +209,28 @@ const Footer = () => {
               <ul role="list" aria-label="Reproduction Furniture links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Seating"
                   >
                     Seating
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Tables"
                   >
                     Tables
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Mirrors"
                   >
                     Mirrors
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="The Pantry Collection"
                   >
@@ -247,70 +247,70 @@ const Footer = () => {
               <ul role="list" aria-label="Antique Furniture links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Seating"
                   >
                     Seating
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Tables"
                   >
                     Tables
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Desks"
                   >
                     Desks
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Bookcases and Cabinets"
                   >
                     Bookcases & Cabinets
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Chests"
                   >
                     Chests
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Mirrors"
                   >
                     Mirrors
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Fire Accessories"
                   >
                     Fire Accessories
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Objects"
                   >
                     Objects
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Works of Arts"
                   >
                     Works of Arts
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Lighting"
                   >
@@ -329,35 +329,35 @@ const Footer = () => {
               <ul role="list" aria-label="Journal links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Praesentium"
                   >
                     Praesentium
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Voluptatibus"
                   >
                     Voluptatibus
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Accusamus"
                   >
                     Accusamus
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Iusto"
                   >
                     Iusto
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Dignissimos"
                   >
@@ -376,49 +376,49 @@ const Footer = () => {
               <ul role="list" aria-label="About links">
                 <li className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Founders"
                   >
                     Founders
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Team"
                   >
                     Team
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="History"
                   >
                     History
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Galleries"
                   >
                     Galleries
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Workshops"
                   >
                     Workshops
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Showrooms"
                   >
                     Showrooms
                   </a>
                   <a
-                    className="font-medium text-base text-customGray leading-6"
+                    className="font-medium text-base text-customGray leading-6 hover:text-black transition-all duration-500 relative link-border-onhover w-fit"
                     href="#"
                     aria-label="Terms and Conditions"
                   >

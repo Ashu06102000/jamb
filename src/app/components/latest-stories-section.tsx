@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import { Products } from "../data/mock-data";
 import ProductsDisplay from "./product/products-list";
 
@@ -9,7 +9,7 @@ const LatestStories = () => {
         products={Products.latest_stories}
         title="See more of our latest stories"
         cardCss={"xl:grid-cols-5"}
-        imageStyling="aspect-[0.7499] w-48 "
+        imageStyling="aspect-[0.7499] w-48"
       />
     </div>
   );

@@ -1,9 +1,12 @@
-export const CircleOnHover = ({imageClass}:{imageClass:string}) =>{
-    const imageContainer: any = document.querySelector(`.${imageClass}`);
-    const circle: any = document.querySelector(".cursor-circle");
-    // const imageContainer: any = document.querySelector(".image-container");
-    // const circle: any = document.querySelector(".cursor-circle");
-    let timer: any = null;
+
+
+export const CircleOnHover = ({ imageClass }: { imageClass: string }) => {
+
+    const imageContainer: HTMLElement | null = document.querySelector(`.${imageClass}`);
+    const circle: HTMLElement | null = document.querySelector(".cursor-circle");
+    let timer: NodeJS.Timeout;
+
+    if (!imageContainer || !circle) return;
 
     const handleMouseEnter = () => {
       circle.classList.add("in");
@@ -13,9 +16,8 @@ export const CircleOnHover = ({imageClass}:{imageClass:string}) =>{
       circle.classList.remove("in");
     };
 
-    const handleMouseMove = (e: any) => {
-      const { left, top, width, height } =
-        imageContainer.getBoundingClientRect();
+    const handleMouseMove = (e: MouseEvent) => {
+      const { left, top, width, height } = imageContainer.getBoundingClientRect();
       const { clientX, clientY } = e;
 
       if (
@@ -27,15 +29,10 @@ export const CircleOnHover = ({imageClass}:{imageClass:string}) =>{
         circle.style.left = `${clientX - left}px`;
         circle.style.top = `${clientY - top}px`;
 
-       
-        if (timer) {
-          clearTimeout(timer);
-        }
+        if (timer) clearTimeout(timer);
 
-        
         circle.classList.add("in");
 
-        
         timer = setTimeout(() => {
           circle.classList.remove("in");
         }, 500);
@@ -50,8 +47,9 @@ export const CircleOnHover = ({imageClass}:{imageClass:string}) =>{
       imageContainer.removeEventListener("mouseenter", handleMouseEnter);
       imageContainer.removeEventListener("mouseleave", handleMouseLeave);
       imageContainer.removeEventListener("mousemove", handleMouseMove);
-      if (timer) {
-        clearTimeout(timer);
-      }
+      if (timer) clearTimeout(timer);
     };
-}
+
+
+
+};

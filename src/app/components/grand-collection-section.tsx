@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import { CatergoryInfo } from "../data/mock-data";
 import CatergoryItemInfoSection from "./category-items-info-section";
 

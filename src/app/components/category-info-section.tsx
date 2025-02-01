@@ -12,7 +12,7 @@ const CategoryInfoSection = () => {
           (category, index) => (
            
             (
-              <div key={index}>
+              <div className="relative" key={index}>
                 <CatergoryItemInfoSection
                   name={category.name}
                   description={category.description}

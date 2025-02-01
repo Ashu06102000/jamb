@@ -1,5 +1,5 @@
-import { Product, ProductCardProps } from "@/app/Interface/interface";
-import Image from "next/image";
+import { ProductCardProps } from "@/app/Interface/interface";
+
 
 const ProductCard = ({ product, imageStyling }: ProductCardProps) => {
   return (
