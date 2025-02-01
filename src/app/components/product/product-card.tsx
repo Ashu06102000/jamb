@@ -8,6 +8,7 @@ const ProductCard = ({ product, imageStyling }: ProductCardProps) => {
         src={product.image}
         alt={product.name}
         className={`object-cover ${imageStyling}`}
+        aria-label={`Image of ${product.name}`}
       />
 
       <div className="flex flex-col">

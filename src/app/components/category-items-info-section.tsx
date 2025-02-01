@@ -13,7 +13,8 @@ const CatergoryItemInfoSection = ({
   return (
     <>
       <div
-        id={name + "-section"}
+        id={title?title+"-section":name + "-section"}
+        aria-labelledby={title ? `${title}-heading` : `${name}-heading`}
         className="flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-12 max-h-screen"
       >
         <div className="flex flex-col items-center gap-6 w-full sm:w-1/2 xl:max-w-md xl:w-auto  animate-fade-up">
@@ -50,6 +51,7 @@ const CatergoryItemInfoSection = ({
             width={500}
             height={300}
             className="w-full h-full object-cover"
+            aria-label={`Image of ${name}`}
           />
         </div>
       </div>
