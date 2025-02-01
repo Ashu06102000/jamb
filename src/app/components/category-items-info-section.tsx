@@ -49,7 +49,7 @@ const CatergoryItemInfoSection = ({
             alt={name}
             width={500}
             height={300}
-            className="w-full h-full object-cover"
+            className=" h-full object-cover"
             aria-label={`Image of ${name}`}
           />
         </div>
